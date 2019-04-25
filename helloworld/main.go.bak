@@ -1,0 +1,272 @@
+package main
+
+//
+//import (
+//	"fmt"
+//	"time"
+//)
+//
+//func f(n int) {
+//	for i := 0; i < 10; i++ {
+//		fmt.Println(n, ":", i)
+//	}
+//}
+//
+//func test1(){
+//	for i := 0; i < 10; i++ {
+//		go f(i)
+//	}
+//}
+//
+//
+//
+//
+//func pinger(c chan string) {
+//	for i := 0; ; i++ {
+//		c <- "ping"
+//	}
+//}
+//
+//func printer(c chan string) {
+//	for {
+//		msg := <- c
+//		fmt.Println(msg)
+//		time.Sleep(time.Second * 1)
+//	}
+//}
+//
+//func test2()  {
+//	var c chan string = make(chan string)
+//	go pinger(c)
+//	go printer(c)
+//
+//	var input string
+//	fmt.Scanln(&input)
+//}
+//
+//
+//
+//
+//
+//func  test3()  {
+//	c1 := make(chan string)
+//	c2 := make(chan string)
+//
+//	go func() {
+//		for {
+//			c1 <- "from 1"
+//			time.Sleep(time.Second * 2)
+//		}
+//	}()
+//
+//	go func() {
+//		for {
+//			c2 <- "from 2"
+//			time.Sleep(time.Second * 3)
+//		}
+//	}()
+//
+//	go func() {
+//		for {
+//			select {
+//			case msg1 := <- c1:
+//				fmt.Println(msg1)
+//			case msg2 := <- c2:
+//				fmt.Println(msg2)
+//			}
+//		}
+//	}()
+//
+//	var input string
+//	fmt.Scanln(&input)
+//
+//}
+//
+//
+//func test4(){
+//	var numbers []int
+//	printSlice(numbers)
+//
+//	/* 允许追加空切片 */
+//	numbers = append(numbers, 0)
+//	printSlice(numbers)
+//
+//	/* 向切片添加一个元素 */
+//	numbers = append(numbers, 1)
+//	printSlice(numbers)
+//
+//	/* 同时添加多个元素 */
+//	numbers = append(numbers, 2,3,4)
+//	printSlice(numbers)
+//
+//	/* 创建切片 numbers1 是之前切片的两倍容量*/
+//	numbers1 := make([]int, len(numbers), (cap(numbers))*2)
+//
+//	/* 拷贝 numbers 的内容到 numbers1 */
+//	copy(numbers1,numbers)
+//	printSlice(numbers1)
+//}
+//
+//func test5(){
+//	var map1=make(map[string]int);
+//	map1["1"]=1;
+//	map1["2"]=2;
+//	fmt.Println(map1);
+//}
+//
+//
+//func test7(){
+//	var map1 map[string]int=map[string]int{"3":3};
+//	//map1 := map[string]string{
+//	//	"a": "aa",
+//	//	"b": "bb",
+//	//}
+//	//map1=make(map[string]int);
+//	map1["1"]=1;
+//	map1["2"]=2;
+//	fmt.Println(map1);
+//}
+//
+//
+//
+///**
+// * https://sanyuesha.com/2017/07/26/go-make-and-new/
+// */
+//func test6(){
+//	var s1 []int
+//	if s1 == nil {
+//		fmt.Printf("s1 is nil --> %#v \n ", s1) // []int(nil)
+//	}
+//
+//	s2 := make([]int, 3)
+//	if s2 == nil {
+//		fmt.Printf("s2 is nil --> %#v \n ", s2)
+//	} else {
+//		fmt.Printf("s2 is not nill --> %#v \n ", s2)// []int{0, 0, 0}
+//	}
+//}
+//
+//
+///**
+//  * 用make与不用make的区别
+// */
+//func test8(){
+//	var dd=make([]int,10,100);
+//	dd[2]=22;
+//	dd[3]=33;
+//	fmt.Println(dd);
+//
+//	var ss[]int;
+//	ss[2]=11;//区别
+//	fmt.Println(ss);
+//	ss=append(ss,10,14,16,17);
+//	fmt.Println(ss);
+//}
+//
+//
+//
+//func test9(){
+//	type person struct {
+//		name string //注意后面不能有逗号
+//		age  int
+//	}
+//	//结构体初始化
+//	p := person{
+//		name: "taozs", //注意后面要加逗号
+//		age:  18, //或者下面的}提到这儿来可以省略逗号
+//	}
+//	fmt.Println(p.name)
+//}
+//
+//
+//
+//func printSlice(x []int){
+//	fmt.Printf("len=%d cap=%d slice=%v\n",len(x),cap(x),x)
+//}
+//
+///***************************  类型重命名与扩展函数 start  ****************************/
+//type name string
+//func (n name) len() int {
+//	return len(n)
+//}
+//func test10()  {
+//	var myname name = "taozs" //其实就是字符串类型
+//	bytes := []byte(myname)   //字符串转字节数组
+//	fmt.Println(len(bytes))   //字节长度
+//	fmt.Println(myname.len()) //调用对象的方法
+//}
+///***************************  类型重命名与扩展函数 end  *******************************/
+//
+//
+//
+///*************************** 值reciver 与  指针reciver区别 start *****************************************************/
+//type Person struct {
+//	Name string
+//	Age  int
+//}
+//
+//func (p *Person) SayHi1() {
+//	p.Name = "leon1"
+//}
+//
+//func (p Person) SayHi2() Person{
+//	p.Name = "leon2"
+//	return p;
+//}
+//
+//func test13()  {
+//	p1 := &Person{Name: "test", Age: 10}
+//	fmt.Println("name1 : " + p1.Name)
+//	p1.SayHi1()
+//	fmt.Println("name2 : " + p1.Name)
+//
+//	p2 := Person{Name: "test1", Age: 11}
+//	fmt.Println("name3: " + p2.Name)
+//	var p3=p2.SayHi2()
+//	fmt.Println("name4 : " + p2.Name)
+//	fmt.Println("name5:"+p3.Name)
+//}
+///*************************** 值reciver 与  指针reciver区别 end *****************************************************/
+//
+//
+//
+//
+///**************************** 多参数 start *****************************************/
+//func Greeting(who ...string){
+//	for _, name := range who {
+//		fmt.Println(name)
+//	}
+//}
+//func test14()  {
+//	Greeting("hello:", "Joe", "Anna", "Eileen")
+//	s := []string{"James", "Jasmine"}
+//	Greeting(s...)
+//}
+//
+///**************************** 多参数 end *****************************************/
+//
+//
+//
+////go get github.com/wesovilabs/koazee
+//func main()  {
+//	//fmt.Println("123456");
+//	//fmt.Println(user.GetUser());
+//	//fmt.Println("123456");
+//	//var input string
+//	//fmt.Scanln(&input)
+//	//
+//	//test1();
+//	//test2();
+//	//test2();
+//	//test4();
+//	//test5();
+//	//test6();
+//	//test7();
+//
+//	//var src=[6]int{1,2,3,4,5};
+//	//ss=src[1:3];
+//
+//	//test9();
+//	//test10();
+//	test14();
+//}
