@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d28d55bd-b17f-4760-8c57-1f04a0921b8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../gin-rest-api/.idea/gin-rest-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gin-rest-api/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gin-rest-api/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gin-rest-api/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gin-rest-api/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gin-rest-api/example.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gin-rest-api/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gin-rest-api/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin-rest-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gin-rest-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin-rest-api/example.go" beforeDir="false" afterPath="$PROJECT_DIR$/../gin-rest-api/example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin-rest-api/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../gin-rest-api/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin-rest-api/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../gin-rest-api/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +150,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36550975" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36550975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
