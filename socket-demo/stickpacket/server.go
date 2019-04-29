@@ -5,9 +5,49 @@ import (
 	"encoding/gob"
 	"fmt"
 	"log"
+	"net"
 )
 
 func Start()  {
+
+	//test6();
+	test7();
+	
+
+}
+
+func test7()  {
+	con,err:=net.Listen("tcp","0.0.0.0:2020");
+	if err ==nil {
+		clientCon,err:=con.Accept();
+		if(err==nil){
+			go dealClient(clientCon);
+		}
+	}
+}
+
+
+
+func dealClient(clientCon net.Conn){
+	var data=[]byte("hello");
+	var version=[2]byte{0x00,0x00};
+	var packet=Packet{
+		Header:Header{
+			Version:version,
+			Length:int32(len(data)),
+		},
+		Data:data,
+	};
+	var network bytes.Buffer
+	enc := gob.NewEncoder(&network)
+	err := enc.Encode(&packet);
+	if err !=nil {
+		clientCon.Write(network.Bytes());
+	}
+}
+
+
+func test6()  {
 
 	type Address struct {
 		Country    string
@@ -51,11 +91,7 @@ func Start()  {
 	fmt.Println(q)
 	fmt.Printf("%q: {%d,%d,%s}\n", q.Name, *q.X, *q.Y,q.Address)
 	fmt.Printf("%q: {%d,%d,%s}\n", q2.Name, *q2.X, *q2.Y,q2.Address)
-
-
 }
-
-
 
 
 

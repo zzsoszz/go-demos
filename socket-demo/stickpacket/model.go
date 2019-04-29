@@ -6,13 +6,10 @@ import (
 
 type Header struct {
 	Version [2]byte // 协议版本
-	Length  int     // 数据部分长度
+	Length  int32     // 数据部分长度
 }
 
-
 type Packet struct {
-	Total uint16
-	Length uint16
 	Header Header
 	Data   []byte
 }
