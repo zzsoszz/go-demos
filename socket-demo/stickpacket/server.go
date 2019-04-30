@@ -8,7 +8,9 @@ import (
 	"net"
 )
 
+
 /**
+ *  https://medium.com/@kpbird/golang-serialize-struct-using-gob-part-1-e927a6547c00
  *	https://medium.com/@kpbird/golang-serialize-struct-using-gob-part-2-f6134dd4f22c
  */
 func Start()  {
