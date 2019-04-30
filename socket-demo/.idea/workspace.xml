@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e410a9e-cbbf-4b71-9a4e-a28b24dd9919" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/stickpacket/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/stickpacket/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stickpacket/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/stickpacket/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stickpacket/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/stickpacket/server.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +19,71 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stickpacket/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="551">
+              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
               <folding>
-                <element signature="e#14#63#0" expanded="true" />
+                <element signature="e#14#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stickpacket/model.go">
+        <entry file="file://$PROJECT_DIR$/stickpacket/client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="325">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#15#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stickpacket/model_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stickpacket/client_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#15#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/net/net.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="181" column="1" lean-forward="true" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/encoding/binary/binary.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="160" column="8" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/bytes/buffer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2030">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -65,10 +116,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/stickpacket/client.go" />
         <option value="$PROJECT_DIR$/stickpacket/model_test.go" />
         <option value="$PROJECT_DIR$/stickpacket/server_test.go" />
         <option value="$PROJECT_DIR$/stickpacket/model.go" />
+        <option value="$PROJECT_DIR$/stickpacket/client_test.go" />
+        <option value="$PROJECT_DIR$/stickpacket/client.go" />
         <option value="$PROJECT_DIR$/stickpacket/server.go" />
       </list>
     </option>
@@ -111,14 +163,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stickpacket" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\bxdev\github\go-demos\socket-demo" />
       <recent name="D:\bxdev\github\go-demos\socket-demo\stickpacket" />
+      <recent name="D:\bxdev\github\go-demos\socket-demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +185,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build server.go">
+  <component name="RunManager" selected="Go Test.TestStartClient in socket-demo/stickpacket">
+    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="socket-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/stickpacket/client.go" />
+      <package value="socket-demo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build goping.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="socket-demo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -153,7 +214,7 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStart in socket-demo/stickpacket" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStartClient in socket-demo/stickpacket" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="socket-demo" />
       <working_directory value="$PROJECT_DIR$/stickpacket" />
       <framework value="gotest" />
@@ -161,17 +222,7 @@
       <package value="socket-demo/stickpacket" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStart$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="model_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="socket-demo" />
-      <working_directory value="$PROJECT_DIR$/stickpacket" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <package value="socket-demo" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/stickpacket/model_test.go" />
+      <pattern value="^TestStartClient$" />
       <method v="2" />
     </configuration>
     <configuration name="server_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -187,50 +238,50 @@
     <list>
       <item itemvalue="Go Build.go build goping.go" />
       <item itemvalue="Go Build.go build server.go" />
-      <item itemvalue="Go Test.model_test.go" />
-      <item itemvalue="Go Test.TestStart in socket-demo/stickpacket" />
       <item itemvalue="Go Test.server_test.go" />
+      <item itemvalue="Go Build.go build client.go" />
+      <item itemvalue="Go Test.TestStartClient in socket-demo/stickpacket" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestStartClient in socket-demo/stickpacket" />
+        <item itemvalue="Go Build.go build client.go" />
         <item itemvalue="Go Test.server_test.go" />
         <item itemvalue="Go Build.go build server.go" />
         <item itemvalue="Go Build.go build goping.go" />
-        <item itemvalue="Go Test.TestStart in socket-demo/stickpacket" />
-        <item itemvalue="Go Test.model_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="server_test_go - 2019.04.29 at 16h 01m 25s.xml">
+    <history-entry file="server_test_go - 2019.04.30 at 10h 03m 43s.xml">
       <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 16h 01m 43s.xml">
+    <history-entry file="server_test_go - 2019.04.30 at 10h 49m 22s.xml">
       <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 16h 03m 54s.xml">
+    <history-entry file="server_test_go - 2019.04.30 at 10h 53m 28s.xml">
       <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 16h 05m 21s.xml">
+    <history-entry file="server_test_go - 2019.04.30 at 10h 55m 26s.xml">
       <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 16h 05m 41s.xml">
+    <history-entry file="server_test_go - 2019.04.30 at 10h 56m 03s.xml">
       <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 16h 13m 14s.xml">
+    <history-entry file="server_test_go - 2019.04.30 at 11h 00m 33s.xml">
       <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 16h 55m 24s.xml">
+    <history-entry file="server_test_go - 2019.04.30 at 11h 02m 26s.xml">
       <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 16h 56m 18s.xml">
+    <history-entry file="server_test_go - 2019.04.30 at 11h 05m 50s.xml">
       <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 17h 03m 49s.xml">
-      <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestStartClient_in_socket-demo_stickpacket - 2019.04.30 at 11h 14m 11s.xml">
+      <configuration name="TestStartClient in socket-demo/stickpacket" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="server_test_go - 2019.04.29 at 17h 13m 28s.xml">
-      <configuration name="server_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestStartClient_in_socket-demo_stickpacket - 2019.04.30 at 11h 15m 06s.xml">
+      <configuration name="TestStartClient in socket-demo/stickpacket" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -238,7 +289,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20042644" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.20042644" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -248,7 +299,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.34056398" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.37852496" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -269,7 +320,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.34056398" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.37852496" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -291,7 +342,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/stickpacket/server.go</url>
-          <line>142</line>
+          <line>159</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -329,13 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/bytes/buffer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/bufio/scan.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -353,13 +397,6 @@
     <entry file="file://$PROJECT_DIR$/go.mod">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Go/src/encoding/binary/binary.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="253" column="45" selection-start-line="253" selection-start-column="41" selection-end-line="253" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goping.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -374,10 +411,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/net/ip.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/net/tcpsock.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/encoding/gob/decoder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stickpacket/server_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/encoding/gob/encoder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/encoding/binary/binary.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="160" column="8" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/bytes/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2030">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stickpacket/model.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stickpacket/client_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#15#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/net/net.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="181" column="1" lean-forward="true" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -390,45 +500,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stickpacket/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/net/net.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/encoding/gob/encoder.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stickpacket/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="325">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#15#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stickpacket/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="551">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
           <folding>
-            <element signature="e#14#63#0" expanded="true" />
+            <element signature="e#14#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

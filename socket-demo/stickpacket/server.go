@@ -8,6 +8,9 @@ import (
 	"net"
 )
 
+/**
+ *	https://medium.com/@kpbird/golang-serialize-struct-using-gob-part-2-f6134dd4f22c
+ */
 func Start()  {
 
 	//test6();
@@ -19,10 +22,16 @@ func Start()  {
 func test7()  {
 	con,err:=net.Listen("tcp","0.0.0.0:2020");
 	if err ==nil {
-		clientCon,err:=con.Accept();
-		if(err==nil){
-			go dealClient(clientCon);
+		fmt.Println("listen on 2020")
+		for{
+			clientCon,err:=con.Accept();
+			fmt.Println("connected client:"+con.Addr().String())
+			if(err==nil){
+				go dealClient(clientCon);
+			}
 		}
+	}else{
+		fmt.Println(err);
 	}
 }
 
@@ -38,12 +47,20 @@ func dealClient(clientCon net.Conn){
 		},
 		Data:data,
 	};
+
+
 	var network bytes.Buffer
 	enc := gob.NewEncoder(&network)
 	err := enc.Encode(&packet);
-	if err !=nil {
+	if err ==nil {
+		fmt.Println(network.Bytes());
 		clientCon.Write(network.Bytes());
+		clientCon.Write(network.Bytes());
+		clientCon.Write(network.Bytes());
+		clientCon.Close();
+		fmt.Println("write finesh!")
 	}
+
 }
 
 
